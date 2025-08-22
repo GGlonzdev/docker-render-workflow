@@ -14,7 +14,7 @@ def hola():
     </style>
     </head>
     <body>
-        <h1 class="glow">¡Hola Mundo 🚀!</h1>
+        <h1 class="glow">¡Hola Mundo 🚀! - Práctica de despliegue web</h1>
         <p>Que tal 😎✨</p>
     </body>
     </html>
