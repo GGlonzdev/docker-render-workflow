@@ -26,7 +26,9 @@ jobs:
         run: docker push gglonzdev/app:latest
 
       - name: Deploy to Render
-        run: curl -X POST \
+        run: |
+          curl -X POST \
           -H "Accept: application/json" \
           -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
           https://api.render.com/deploy/SRV-D2K9PCJE5DUS7390I5E0
+
